@@ -1,0 +1,169 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f0fb; 
+    color: #333;
+    line-height: 1.7;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+header {
+    background-image: linear-gradient(to bottom, #ffffff, #e0f7fa); 
+    padding: 80px 0;
+    text-align: center;
+}
+header h1 {
+    font-size: 3.5rem;
+    color: #2196f3; 
+    margin-bottom: 20px;
+    letter-spacing: -0.02em;
+}
+header p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    background-color: #2196f3; 
+    color: white;
+    text-decoration: none;
+    border-radius: 24px; 
+    font-size: 1.1rem;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.btn:hover {
+    background-color: #1976d2; 
+}
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+section h2 {
+    font-size: 2.5rem;
+    color: #2196f3;
+    margin-bottom: 15px;
+    letter-spacing: -0.02em;
+}
+section p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 40px;
+    line-height: 1.8;
+}
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+.place-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid #e0e0e0;
+}
+.place-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+.place-card img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    border-bottom: 1px solid #e0e0e0;
+}
+.place-card-content {
+    padding: 20px;
+    text-align: left;
+}
+.place-card-content h3 {
+    font-size: 1.5rem;
+    color: #2196f3; 
+    margin-bottom: 10px;
+}
+.place-card-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.7;
+}
+form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+form h2 {
+    font-size: 2rem;
+    color: #2196f3; 
+    margin-bottom: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #444;
+    font-weight: 600;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #cfd8dc; 
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+    outline: none;
+}
+form input:focus, form textarea:focus {
+    border-color: #2196f3; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+form textarea {
+    resize: vertical;
+    height: 120px;
+}
+form button {
+    padding: 12px 28px;
+    background-color: #2196f3; 
+    color: white;
+    border: none;
+    border-radius: 24px; 
+    font-size: 1.1rem;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+form button:hover {
+    background-color: #1976d2; 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+footer {
+    background-color: #e0f7fa; 
+    padding: 30px 0;
+    text-align: center;
+    color: #555;
+    font-size: 0.9rem;
+    border-top: 1px solid #b0bec5;
+}
+
